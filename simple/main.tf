@@ -8,11 +8,6 @@ output "secret1_output" {
   value       = var.SECRET1
 }
 
-variable "stam" {
-  description = "Input variable secret1"
-  type        = string
-}
-
 output "stam" {
   description = "Output of variable stam"
   value       = var.stam
